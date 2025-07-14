@@ -1,0 +1,33 @@
+.icon-link {
+  text-decoration: none;
+}
+
+.icon-btn {
+  background: transparent;
+  border: none;
+  padding: 8px;
+  border-radius: 50%;
+  cursor: pointer;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  transition: transform 0.3s ease, box-shadow 0.3s ease;
+
+  img {
+    width: 48px;
+    height: 48px;
+    object-fit: contain;
+    transition: transform 0.3s ease;
+  }
+
+  &:hover,
+  &:focus {
+    outline: none;
+    transform: scale(1.1);
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.15);
+
+    img {
+      transform: rotate(10deg);
+    }
+  }
+}

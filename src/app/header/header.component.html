@@ -1,0 +1,21 @@
+<div class="flex flex-col md:flex-row justify-between items-center h-20 md:h-16 px-4 bg-[#181818] text-white gap-2 md:gap-0 py-2 md:py-0">
+  <nav class="flex gap-4 text-center">
+    <a href="#home" class="hover:underline">{{ 'NAV.HOME' | translate }}</a>
+    <a href="#about" class="hover:underline">{{ 'NAV.ABOUT' | translate }}</a>
+    <a href="#contact" class="hover:underline">{{ 'NAV.CONTACT' | translate }}</a>
+  </nav>
+
+  <div class="flex items-center gap-2">
+    <label for="lang" class="text-sm font-medium text-gray-300">
+      {{ 'NAV.LANG' | translate }}:
+    </label>
+    <select
+      id="lang"
+      class="rounded-lg border border-gray-300 px-3 py-1 text-sm text-gray-700 dark:bg-gray-800 dark:text-white dark:border-gray-600"
+      (change)="onLangChange($event)"
+    >
+      <option value="en">English</option>
+      <option value="es">Español</option>
+    </select>
+  </div>
+</div>

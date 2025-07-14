@@ -1,0 +1,22 @@
+{
+    "GREETING": "Hello My Name Is Manuel!",
+    "NAV": {
+      "LANG": "Lenguage",
+      "HOME": "Home",
+      "ABOUT": "About Me",
+      "CONTACT": "Contact"
+    },
+    "HOME": {
+      "FIRST": "Software Engineer with Full Stack Development Expertise"
+    },
+    "ABOUT": {
+      "TITLE_SEC_1": "Professional Summary",
+      "TITLE_SEC_2": "Online Presence",
+      "FIRST": "Full Stack Developer with over 4 years of professional experience, specializing in backend development using PHP (Laravel) and Node.js (Express). Possesses strong frontend capabilities with Vue.js, along with solid knowledge of Angular and React.",
+      "SECOND": "Proven track record in building scalable and maintainable software within fast-paced startup environments, actively contributing throughout the entire software development lifecycle from planning and architecture to deployment and maintenance.",
+      "THIRTH": "Fluent in Spanish (native) and able to communicate effectively in English, including participation in technical discussions and meetings.",
+      "SUBTITLE": "I am available on these platforms",
+      "COMMENT": "Always open to connect"
+    }
+  }
+  
