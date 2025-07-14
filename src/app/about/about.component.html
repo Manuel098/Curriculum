@@ -1,0 +1,20 @@
+<section class="division">
+    <div class="w-r/4 md:w-1/3 text-[#d9e2e8] tracking-wide font-sans font-light text-wrap">
+        <h2>{{"ABOUT.TITLE_SEC_1" | translate}}</h2>
+        <app-animated-divider />
+        <p class="text-justify mb-4">{{'ABOUT.FIRST' | translate}}</p>
+        <p class="text-justify mb-4">{{'ABOUT.SECOND' | translate}}</p>
+        <p class="text-justify">{{'ABOUT.THIRTH' | translate}}</p>
+    </div>
+    <div class="w-r/4 md:w-1/3 text-[#d9e2e8] tracking-wide font-sans font-light text-wrap">
+        <h2>{{"ABOUT.TITLE_SEC_2" | translate}}</h2>
+        <p class="text-sm text-gray-500 mb-4">{{"ABOUT.SUBTITLE" | translate}}</p>
+        <app-animated-divider />
+        <div class="flex flex-row justify-between">
+            <ng-container *ngFor="let btn of btns">
+                <app-link-button [url]="btn.url" [image]="btn.icon"/>
+            </ng-container>
+        </div>
+        <p class="text-xs text-gray-400 mt-4 italic">{{"ABOUT.COMMENT" | translate}}</p>
+    </div>
+</section>

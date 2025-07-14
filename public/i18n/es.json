@@ -1,0 +1,22 @@
+{
+    "GREETING": "¡Hola mi nombre es Manuel!",
+    "NAV": {
+      "LANG": "Idioma",
+      "HOME": "Inicio",
+      "ABOUT": "Acerca de mi",
+      "CONTACT": "Contacto"
+    },
+    "HOME": {
+      "FIRST": "Ingeniero en Software con experiencia en Desarrollo Full Stack"
+    },
+    "ABOUT": {
+      "TITLE_SEC_1": "Resumen profesional",
+      "TITLE_SEC_2": "Presencia en línea",
+      "FIRST": "Desarrollador Full Stack con más de 4 años de experiencia profesional, especializado en el desarrollo backend con PHP (Laravel) y Node.js (Express). Contando con sólidas habilidades en frontend utilizando Vue.js, además de conocimientos en Angular y React.",
+      "SECOND": "Experiencia demostrada en la creación de software escalable y mantenible en entornos de startups, participando activamente en todo el ciclo de vida del desarrollo de software, desde la planificación y arquitectura hasta el despliegue y mantenimiento.",
+      "THIRTH": "Dominio del español (nativo) y capacidad para comunicarme eficazmente en inglés, incluyendo la participación en reuniones técnicas y discusiones de equipo.",
+      "SUBTITLE": "Estoy disponible en estas plataformas",
+      "COMMENT": "Siempre abierto a conectar"
+    }
+}
+  

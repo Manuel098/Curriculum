@@ -1,1 +1,33 @@
 /* You can add global styles to this file, and also import other style files */
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+html {
+    scroll-behavior: smooth;
+}
+
+.division {
+  @apply flex flex-col-reverse md:flex-row items-center min-h-[calc(100vh-5rem)] md:min-h-[calc(100vh-4rem)] justify-center md:justify-around px-4 gap-8;
+}
+
+::-webkit-scrollbar {
+    width: 8px;
+    height: 8px;
+}
+  
+::-webkit-scrollbar-track {
+  background: #1f1f1f;
+}
+
+::-webkit-scrollbar-thumb {
+  background-color: #808f95;
+  border-radius: 10px;
+  border: 2px solid #1f1f1f;
+}
+
+/* Firefox */
+* {
+  scrollbar-width: thin;
+  scrollbar-color: #808f95 #1f1f1f;
+}
