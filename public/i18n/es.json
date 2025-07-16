@@ -4,7 +4,8 @@
       "LANG": "Idioma",
       "HOME": "Inicio",
       "ABOUT": "Acerca de mi",
-      "CONTACT": "Contacto"
+      "CONTACT": "Contacto",
+      "EXPERIENCE": "Trayectoria"
     },
     "HOME": {
       "FIRST": "Ingeniero en Software con experiencia en Desarrollo Full Stack"
@@ -17,6 +18,29 @@
       "THIRTH": "Dominio del español (nativo) y capacidad para comunicarme eficazmente en inglés, incluyendo la participación en reuniones técnicas y discusiones de equipo.",
       "SUBTITLE": "Estoy disponible en estas plataformas",
       "COMMENT": "Siempre abierto a conectar"
+    },
+    "EXPERIENCE": {
+      "ONM6": {
+        "POSITION": "Desarrollador Full Stack: 2020 - 2025",
+        "DESC": "Desarrollé y mantuve aplicaciones backend utilizando Laravel y Node - Express para una aplicación web SaaS diseñada para generar suites y aplicaciones dinámicas. Implementé soluciones frontend con Vue. Integré APIs y desarrollé nuevas funcionalidades para mejorar la experiencia del usuario. Optimizé el rendimiento y la escalabilidad del sistema.",
+        "TECH":{
+          "MAILCHIMP": "Participé en el desarrollo de plantillas personalizadas de correo electrónico compatibles con Mailchimp, enfocadas en la experiencia del usuario y la correcta visualización en distintos clientes de correo. Implementé la integración entre la plataforma web y Mailchimp mediante el uso de su API, automatizando el envío de campañas, la gestión de listas de suscriptores y la sincronización de datos en tiempo real. ",
+          "MYSQL": "Participé en el diseño de la arquitectura de base de datos utilizando MySQL, así como en la creación de modelos y migraciones de tablas para estructurar eficientemente la información. También colaboré en el desarrollo de solicitudes y operaciones CRUD en las APIs, asegurando una integración coherente entre el backend y la base de datos.",
+          "LARAVEL": "Utilizado para desarrollar una API robusta que gestiona la creación de aplicaciones dinámicas dentro de una plataforma SaaS orientada a la web, permitiendo una integración eficiente y escalable con múltiples módulos del sistema.",
+          "EXPRESS": "Desarrollamos un sistema de autenticación utilizando Node.js y Express, con gestión de roles y permisos personalizados para distintos niveles de acceso. El sistema incluía autenticación segura con tokens, control detallado de permisos, y comunicación en tiempo real mediante sockets para funcionalidades interactivas y notificaciones en vivo.",
+          "VUE": "Participé en el desarrollo de un sistema web utilizando Vue.js, enfocado en la creación de aplicaciones personalizadas para microempresas. La plataforma incluía funcionalidades como un calendario para eventos, integración con mapas para ubicaciones, tablas dinámicas adaptables a distintas necesidades, además de un sistema de chat en tiempo real y un feed interactivo."
+        }
+      },
+      "UNIPOLI": {
+        "POSITION": "Estudiante de Ingenieria de software: 2017 - 2020",
+        "DESC": "Egresado de la Ingeniería en Software con conocimientos sólidos en el desarrollo de software mediante el uso de técnicas modernas y buenas prácticas de programación. Capaz de analizar y diagnosticar requerimientos, así como de construir soluciones utilizando metodologías y plataformas de trabajo colaborativo. Enfocado en cumplir con los estándares de calidad del software y contribuir activamente al aseguramiento de la calidad en cada etapa del desarrollo."
+      }
+    },
+    "CONTACT": {
+      "TITLE": "Contáctame",
+      "CONTENT": "¿Tienes un proyecto o una idea? Estoy abierto nuevas oportunidades y colaboraciones. ;D",
+      "EMAIL": "Correo",
+      "PHONE": "Numero de Telefono"
     }
 }
   

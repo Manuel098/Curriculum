@@ -1,0 +1,22 @@
+<div class="animate-flag bg-flag bg-[length:200%_200%] shadow-inner flex flex-col rounded-xl p-4 shadow-md overflow-visible w-[70vw] my-9 flex-col">
+    <div class="flex w-full">
+        <div class="w-28 h-28 flex-shrink-0 overflow-visible rounded-md">
+            <img
+                class="w-full h-full object-contain"
+                [src]="img"
+                alt="Image"
+            />
+        </div>
+        <div class="p-4">
+            <h2 class="text-xl font-bold text-gray-900">{{ title }}</h2>
+            <h3 class="text-md font-medium text-gray-600">{{ subtitle | translate}}</h3>
+            <p class="text-sm text-gray-500 italic mt-1">{{ location }}</p>
+            <p class="mt-2 text-gray-700">{{ content | translate }}</p>
+        </div>
+    </div>
+    <div *ngIf="technologies.length" class="flex flex-wrap justify-center md:justify-start space-x-4 px-2">
+        <div *ngFor="let tech of technologies" class="flex-shrink-0">
+            <app-tecnology-btn [img]="tech.img" [experience]="tech.experience" [title]="tech.title" />
+        </div>
+    </div>
+</div>

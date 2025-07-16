@@ -1,0 +1,16 @@
+<section class="division">
+    <div class="relative pl-8">
+        <div class="absolute left-2 top-0 bottom-0 w-1 bg-gray-300 rounded-full"></div>
+        <ng-container *ngFor="let exp of experience">
+            <app-experience-card 
+                class="relative"
+                [img]="exp.img"
+                [title]="exp.company"
+                [subtitle]="exp.time"
+                [location]="exp.location"
+                [content]="exp.description"
+                [technologies]="exp.technologies"
+            />
+        </ng-container>
+    </div>
+</section>

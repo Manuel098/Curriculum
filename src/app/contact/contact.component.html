@@ -1,0 +1,36 @@
+<section class="division" id="contact">
+    <div>
+        <h2 class="text-3xl font-bold text-white text-center mb-4">{{"CONTACT.TITLE" | translate}}</h2>
+        <p class="text-center max-w-xl mx-auto mb-8 text-white">
+            {{ "CONTACT.CONTENT" | translate}}
+        </p>
+
+
+        <div class="mt-10 grid gap-4 text-base md:text-lg lg:text-xl">
+            <div
+                class="grid grid-cols-[auto_auto_1fr_auto] items-center gap-2 cursor-pointer group"
+                (click)="copyEmail(email)"
+            >
+                <i class="material-icons text-gray-400">email</i>
+                <span class="text-sm font-medium text-white">{{"CONTACT.EMAIL" | translate}}:</span>
+                <span class="text-blue-400 underline group-hover:text-blue-600 break-all">
+                {{ email }}
+                </span>
+                <i class="material-icons text-gray-400 group-hover:text-white">content_copy</i>
+            </div>
+
+            <div
+                class="grid grid-cols-[auto_auto_1fr_auto] items-center gap-2 cursor-pointer group"
+                (click)="copyEmail(phone)"
+            >
+                <i class="material-icons text-gray-400">local_phone</i>
+                <span class="text-sm font-medium text-white">{{"CONTACT.PHONE" | translate}}:</span>
+                <span class="text-blue-400 underline group-hover:text-blue-600 break-all">
+                {{ phone }}
+                </span>
+                <i class="material-icons text-gray-400 group-hover:text-white">content_copy</i>
+            </div>
+            </div>
+
+    </div>
+</section>

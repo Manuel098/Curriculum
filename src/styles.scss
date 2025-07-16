@@ -8,7 +8,7 @@ html {
 }
 
 .division {
-  @apply flex flex-col-reverse md:flex-row items-center min-h-[calc(100vh-5rem)] md:min-h-[calc(100vh-4rem)] justify-center md:justify-around px-4 gap-8;
+  @apply flex flex-col-reverse md:flex-row items-center min-h-[calc(100vh-8rem)] md:min-h-[calc(100vh-4rem)] justify-center md:justify-around px-4 gap-8;
 }
 
 ::-webkit-scrollbar {
