@@ -1,7 +1,7 @@
 import { Component } from '@angular/core';
 import { TranslateModule } from '@ngx-translate/core';
-import { AnimatedDividerComponent } from '../animated-divider/animated-divider.component';
-import { LinkButtonComponent } from '../link-button/link-button.component';
+import { AnimatedDividerComponent } from '../Components/animated-divider/animated-divider.component';
+import { LinkButtonComponent } from '../Components/link-button/link-button.component';
 import { CommonModule } from '@angular/common';
 
 @Component({
@@ -13,9 +13,9 @@ import { CommonModule } from '@angular/common';
 })
 export class AboutComponent {
   btns = [
-    {icon: 'logos/github.webp', url: 'https://www.google.com'},
-    {icon: 'logos/hackerrank.webp', url: 'https://www.google.com'},
-    {icon: 'logos/linkeding.webp', url: 'https://www.google.com'},
-    {icon: 'logos/udemy.webp', url: 'https://www.google.com'}
+    {icon: 'logos/github.webp', url: 'https://github.com/Manuel098/'},
+    {icon: 'logos/hackerrank.webp', url: 'https://www.hackerrank.com/manuelvaldez8642'},
+    {icon: 'logos/linkeding.webp', url: 'https://www.linkedin.com/in/manuelvaldez21'},
+    {icon: 'logos/udemy.webp', url: 'https://www.udemy.com/user/jose-manuel-valdez-gonzalez/'}
   ];
 }

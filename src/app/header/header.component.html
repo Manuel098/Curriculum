@@ -1,21 +1,41 @@
-<div class="flex flex-col md:flex-row justify-between items-center h-20 md:h-16 px-4 bg-[#181818] text-white gap-2 md:gap-0 py-2 md:py-0">
-  <nav class="flex gap-4 text-center">
-    <a href="#home" class="hover:underline">{{ 'NAV.HOME' | translate }}</a>
-    <a href="#about" class="hover:underline">{{ 'NAV.ABOUT' | translate }}</a>
-    <a href="#contact" class="hover:underline">{{ 'NAV.CONTACT' | translate }}</a>
-  </nav>
+<header class="bg-[#181818] text-white shadow-md border-b border-gray-700">
+  <div class="max-w-7xl mx-auto flex flex-col md:flex-row items-center justify-between px-4 py-3 md:py-2 h-32 md:h-16">
+    
+    <!-- Logo / Nombre -->
+    <div class="text-2xl font-bold tracking-wide text-white">
+      <a href="#home" class="hover:text-gray-300 transition">JM</a>
+    </div>
 
-  <div class="flex items-center gap-2">
-    <label for="lang" class="text-sm font-medium text-gray-300">
-      {{ 'NAV.LANG' | translate }}:
-    </label>
-    <select
-      id="lang"
-      class="rounded-lg border border-gray-300 px-3 py-1 text-sm text-gray-700 dark:bg-gray-800 dark:text-white dark:border-gray-600"
-      (change)="onLangChange($event)"
-    >
-      <option value="en">English</option>
-      <option value="es">Español</option>
-    </select>
+    <!-- Navegación -->
+    <nav class="flex flex-wrap justify-center md:justify-start gap-4 mt-2 md:mt-0">
+      <a href="#home" class="relative hover:text-blue-400 transition duration-200 after:absolute after:left-0 after:bottom-0 after:h-[2px] after:w-0 hover:after:w-full after:bg-blue-400 after:transition-all after:duration-300">
+        {{ 'NAV.HOME' | translate }}
+      </a>
+      <a href="#about" class="relative hover:text-blue-400 transition duration-200 after:absolute after:left-0 after:bottom-0 after:h-[2px] after:w-0 hover:after:w-full after:bg-blue-400 after:transition-all after:duration-300">
+        {{ 'NAV.ABOUT' | translate }}
+      </a>
+      <a href="#experience" class="relative hover:text-blue-400 transition duration-200 after:absolute after:left-0 after:bottom-0 after:h-[2px] after:w-0 hover:after:w-full after:bg-blue-400 after:transition-all after:duration-300">
+        {{ 'NAV.EXPERIENCE' | translate }}
+      </a>
+      <a href="#contact" class="relative hover:text-blue-400 transition duration-200 after:absolute after:left-0 after:bottom-0 after:h-[2px] after:w-0 hover:after:w-full after:bg-blue-400 after:transition-all after:duration-300">
+        {{ 'NAV.CONTACT' | translate }}
+      </a>
+    </nav>
+
+    <!-- Selector de idioma -->
+    <div class="flex items-center gap-2 mt-3 md:mt-0">
+      <label for="lang" class="text-sm font-medium text-gray-400">
+        {{ 'NAV.LANG' | translate }}:
+      </label>
+      <select
+        id="lang"
+        class="bg-[#2a2a2a] text-white border border-gray-600 rounded-md px-3 py-1 text-sm focus:outline-none focus:ring focus:ring-blue-500 transition"
+        (change)="onLangChange($event)"
+      >
+        <option value="en">English</option>
+        <option value="es">Español</option>
+      </select>
+    </div>
+    
   </div>
-</div>
+</header>

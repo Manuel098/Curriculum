@@ -4,7 +4,8 @@
       "LANG": "Lenguage",
       "HOME": "Home",
       "ABOUT": "About Me",
-      "CONTACT": "Contact"
+      "CONTACT": "Contact",
+      "EXPERIENCE": "Career"
     },
     "HOME": {
       "FIRST": "Software Engineer with Full Stack Development Expertise"
@@ -17,6 +18,29 @@
       "THIRTH": "Fluent in Spanish (native) and able to communicate effectively in English, including participation in technical discussions and meetings.",
       "SUBTITLE": "I am available on these platforms",
       "COMMENT": "Always open to connect"
+    },
+    "EXPERIENCE": {
+      "ONM6": {
+        "POSITION": "Full Stack Developer: 2020 - 2025",
+        "DESC": "Developed and maintained backend applications using Laravel and Node - Express for a SaaS web application designed to generate dynamic suites and applications. Implemented frontend solutions with Vue. Integrated APIs and developed new features to enhance user experience. Optimized system performance and scalability.",
+        "TECH":{
+          "MAILCHIMP": "I contributed to the development of custom email templates compatible with Mailchimp, focused on user experience and proper rendering across various email clients. I implemented the integration between the web platform and Mailchimp using its API, automating campaign delivery, subscriber list management, and real-time data synchronization.",
+          "MYSQL": "I contributed to the design of the database architecture using MySQL, including the development of models and table migrations to structure data efficiently. I also participated in building API requests and CRUD operations, ensuring seamless integration between the backend and the database.",
+          "LARAVEL": "Used to develop a robust API for managing the creation of dynamic applications within a web-based SaaS platform, enabling efficient and scalable integration with multiple system modules.",
+          "EXPRESS": "We developed an authentication system using Node.js and Express, featuring role- and permission-based access control for different user levels. The system included secure token-based authentication, fine-grained permission management, and real-time communication through sockets for interactive features and live notifications.",
+          "VUE": "Contributed to the development of a web system using Vue.js, focused on creating customized applications for small businesses. The platform featured an event calendar, map integration for location management, dynamic and flexible data tables, as well as real-time chat and an interactive feed."
+        }
+      },
+      "UNIPOLI": {
+        "POSITION": "Software Enginer student: 2017 - 2020",
+        "DESC": "Software Engineering graduate with strong knowledge in software development using modern techniques and best practices. Skilled in analyzing and diagnosing requirements, and building software solutions through collaborative platforms and development methodologies. Focused on meeting software quality standards and contributing effectively to quality assurance throughout the development lifecycle."
+      }
+    },
+    "CONTACT": {
+      "TITLE": "Contact Me",
+      "CONTENT": "Do you have a project or an idea? I'm open to new opportunities and collaborations. ;D",
+      "EMAIL": "Email",
+      "PHONE": "Phone Number"
     }
   }
   

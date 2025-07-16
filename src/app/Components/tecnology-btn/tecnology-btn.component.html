@@ -1,0 +1,15 @@
+<div class="relative inline-block text-left">
+  <!-- Botón -->
+  <button (click)="toggleMenu()" class="icon-btn">
+    <img [src]="img" alt="Tech" />
+  </button>
+
+  <!-- Menú desplegable -->
+  <div
+    *ngIf="isOpen"
+    class="absolute top-full left-0 sm:right-0 sm:left-auto mt-2 z-50 w-64 max-w-[90vw] origin-top-left sm:origin-top-right bg-white border border-gray-200 rounded-md shadow-lg p-4"
+  >
+    <h2 class="text-base font-semibold">{{ title }}</h2>
+    <p class="text-sm text-gray-600">{{ experience | translate }}</p>
+  </div>
+</div>
