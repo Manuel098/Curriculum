@@ -1,7 +1,7 @@
 {
     "GREETING": "¡Hola mi nombre es Manuel!",
     "NAV": {
-      "LANG": "Idioma",
+      "LANG": "Selecciona tu idioma",
       "HOME": "Inicio",
       "ABOUT": "Acerca de mi",
       "CONTACT": "Contacto",
@@ -37,7 +37,9 @@
       }
     },
     "CONTACT": {
+      "DISCORD": "Contacto de discord",
       "TITLE": "Contáctame",
+      "ACOUNT": "Cuenta",
       "CONTENT": "¿Tienes un proyecto o una idea? Estoy abierto nuevas oportunidades y colaboraciones. ;D",
       "EMAIL": "Correo",
       "PHONE": "Numero de Telefono"
