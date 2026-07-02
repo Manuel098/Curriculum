@@ -1,9 +1,10 @@
 <section class="division">
     <div class="relative pl-8">
         <div class="absolute left-2 top-0 bottom-0 w-1 bg-gray-300 rounded-full"></div>
-        <ng-container *ngFor="let exp of experience">
+        <ng-container *ngFor="let exp of experience let i = index">
             <app-experience-card 
-                class="relative"
+                class="block relative"
+                [style.zIndex]="experience.length - i"
                 [img]="exp.img"
                 [title]="exp.company"
                 [subtitle]="exp.time"

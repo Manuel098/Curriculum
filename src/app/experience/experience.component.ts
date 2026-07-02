@@ -19,7 +19,7 @@ export class ExperienceComponent {
     "technologies": []
   }, {
     "img": "logos/onm6.webp",
-    "company": "OnM6 Connect",
+    "company": "M6 Connect",
     "location": "Omaha, Nebraska USA",
     "time": "EXPERIENCE.ONM6.POSITION",
     "description": "EXPERIENCE.ONM6.DESC",

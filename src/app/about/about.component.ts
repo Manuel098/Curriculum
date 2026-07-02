@@ -15,7 +15,7 @@ export class AboutComponent {
   btns = [
     {icon: 'logos/github.webp', url: 'https://github.com/Manuel098/'},
     {icon: 'logos/hackerrank.webp', url: 'https://www.hackerrank.com/manuelvaldez8642'},
+    {icon: 'logos/credly.webp', url: 'https://www.credly.com/users/jose-manuel-valdez-gonzalez'},
     {icon: 'logos/linkeding.webp', url: 'https://www.linkedin.com/in/manuelvaldez21'},
-    {icon: 'logos/udemy.webp', url: 'https://www.udemy.com/user/jose-manuel-valdez-gonzalez/'}
   ];
 }

@@ -3,8 +3,44 @@
 @tailwind components;
 @tailwind utilities;
 
+.blur-card {
+    @apply relative
+    mx-auto
+    w-[90%]
+    max-w-7xl
+    rounded-3xl
+    border
+    border-white/10
+    bg-white/5
+    backdrop-blur-xl
+    shadow-2xl
+    shadow-black/30
+    p-5
+    transition-all
+    duration-300;
+}
+.blur-card:hover {
+    @apply border-violet-400/20
+    shadow-violet-500/10;
+}
+.blur-card::before {
+    content: "";
+    position: absolute;
+    inset: 0;
+    border-radius: inherit;
+    background: linear-gradient(
+        135deg,
+        rgba(255,255,255,.08),
+        transparent 35%,
+        transparent 65%,
+        rgba(255,255,255,.03)
+    );
+    pointer-events: none;
+}
+
 html {
     scroll-behavior: smooth;
+    background-color: #212B39;
 }
 
 .division {

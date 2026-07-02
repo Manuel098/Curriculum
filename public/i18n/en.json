@@ -13,16 +13,14 @@
     "ABOUT": {
       "TITLE_SEC_1": "Professional Summary",
       "TITLE_SEC_2": "Online Presence",
-      "FIRST": "Full Stack Developer with over 4 years of professional experience, specializing in backend development using PHP (Laravel) and Node.js (Express). Possesses strong frontend capabilities with Vue.js, along with solid knowledge of Angular and React.",
-      "SECOND": "Proven track record in building scalable and maintainable software within fast-paced startup environments, actively contributing throughout the entire software development lifecycle from planning and architecture to deployment and maintenance.",
-      "THIRTH": "Fluent in Spanish (native) and able to communicate effectively in English, including participation in technical discussions and meetings.",
+      "BODY": "Full Stack Software Engineer with over 4 years of professional experience designing, developing, and maintaining scalable web applications in agile startup environments. <br><br> Specialized in backend development using <strong>PHP (Laravel)</strong> and <strong>Node.js (Express)</strong>, with strong frontend expertise in <strong>Vue.js</strong> and practical experience with <strong>Angular</strong> and <strong>React</strong>. Experienced throughout the entire software development lifecycle, including requirements discovery, solution architecture, API design, third-party integrations, cloud-based applications, and production support. <br><br> Skilled in building AI-powered solutions by integrating Large Language Models (LLMs), developing tools for AI agents, and automating business workflows. Passionate about writing clean, maintainable code, solving complex technical challenges, and continuously learning new technologies. Native Spanish speaker with professional English communication skills for collaborating with international teams.",
       "SUBTITLE": "I am available on these platforms",
       "COMMENT": "Always open to connect"
     },
     "EXPERIENCE": {
       "ONM6": {
-        "POSITION": "Full Stack Developer: 2020 - 2025",
-        "DESC": "Developed and maintained backend applications using Laravel and Node - Express for a SaaS web application designed to generate dynamic suites and applications. Implemented frontend solutions with Vue. Integrated APIs and developed new features to enhance user experience. Optimized system performance and scalability.",
+        "POSITION": "Full Stack Developer: Sept 2020 - Feb 2026",
+        "DESC": "Developed and maintained backend applications using Laravel and Node - Express for a SaaS web application designed to generate dynamic suites and applications. Implemented frontend solutions with Vue. Integrated APIs and developed new features to enhance user experience. Optimized application performance and scalability by improving database queries, reducing API response times, implementing efficient caching strategies, and refactoring backend services to support growing business requirements.",
         "TECH":{
           "MAILCHIMP": "I contributed to the development of custom email templates compatible with Mailchimp, focused on user experience and proper rendering across various email clients. I implemented the integration between the web platform and Mailchimp using its API, automating campaign delivery, subscriber list management, and real-time data synchronization.",
           "MYSQL": "I contributed to the design of the database architecture using MySQL, including the development of models and table migrations to structure data efficiently. I also participated in building API requests and CRUD operations, ensuring seamless integration between the backend and the database.",
